@@ -1,0 +1,101 @@
+.intro {
+  height: 80vh;
+  background: #fff;
+}
+
+.i-title {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 0 5rem 10rem;
+  font-size: 3rem;
+  color: var(--brown);
+  position: relative;
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.i-arrow {
+  color: var(--beige);
+  font-size: 37rem;
+  position: absolute;
+  right: 35rem;
+  top: 15rem;
+}
+
+.i-textbox {
+  color: var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  /* padding: 1rem; */
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  /* padding-bottom: 1rem; */
+}
+
+/* .i-line {
+  background: var(--brown);
+  height: 0.2rem;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+} */
+
+.i-box1 {
+  position: absolute;
+  right: 15rem;
+  top: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.i-box1 p {
+  /* margin-bottom: 0.8rem; */
+}
+
+.i-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  /* padding-top: 1rem; */
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-radius: 2rem;
+}
+
+.i-link:hover {
+  border: 0.2rem solid var(--beige);
+}
+
+.i-link a {
+  text-decoration: none;
+  color: var(--darkPink);
+}
+
+.i-linkBtn {
+  color: var(--darkPink);
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.i-right span {
+  font-size: 2.5rem;
+}
+
+.i-box2 {
+  position: absolute;
+  top: 30rem;
+  right: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.i-box3 {
+  position: absolute;
+  top: 40rem;
+  right: 6rem;
+  display: flex;
+  flex-direction: column;
+}

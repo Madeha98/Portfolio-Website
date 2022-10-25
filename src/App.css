@@ -1,0 +1,19 @@
+:root {
+  --white: #fff;
+  --beige: #d9b7a9;
+  --mustard: #d49d34;
+  --darkPink: #c83f67;
+  --brown: #634b44;
+  --pink: rgb(255, 44, 132);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: var(--white);
+}

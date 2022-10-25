@@ -1,0 +1,38 @@
+.footer {
+  background: var(--darkPink);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.f-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.f-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.f-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.f-icons {
+  display: flex;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+
+.f-icons a:hover {
+  transform: translateY(-1rem);
+  transition: 0.5s;
+}

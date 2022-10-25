@@ -1,0 +1,74 @@
+.projects {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  color: var(--brown);
+  margin-bottom: 20rem;
+}
+
+.p-heading {
+  font-size: 4rem;
+  position: relative;
+}
+
+.p-heading span {
+  color: var(--pink);
+}
+
+.p-cardSection {
+  position: absolute;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  grid-template-rows: repeat(2, 20rem);
+  gap: 2rem;
+  transform-origin: top right;
+  transform: skewY(-4.398705355deg);
+}
+.card {
+  background: pink;
+  /* border: 2px solid black; */
+  transform-origin: top left;
+  transform: skewY(5deg) rotateZ(14.03624deg);
+  padding-top: 50%;
+  z-index: 1;
+  transition-property: z-index;
+  transition-duration: 0.3s;
+  /* jhh */
+  /* position: absolute; */
+  z-index: 2;
+  width: 98%;
+  height: 95%;
+  /* top: 0; */
+  border-radius: 2vw;
+  webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+  /* transform: rotate(0deg) translate(0, 0); */
+  transition-property: transform;
+  transition-duration: 0.3s;
+  /* ggg */
+  /* background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, #fff),
+    color-stop(50%, #000)
+  ); */
+  background: -webkit-linear-gradient(left, #fff 50%, var(--beige) 50%);
+  background: -moz-linear-gradient(left, #fff 50%, var(--beige) 50%);
+  background: linear-gradient(to right, #fff 50%, var(--beige) 50%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  -webkit-transition: background-position 0.3s ease-out;
+  -moz-transition: background-position 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  z-index: 4;
+  transform: rotate(5.5deg) translate(5.5%, 15%) scale(1.5) skewX(5deg);
+  background-position: -100% 0;
+}
+
+.card1 {
+}
